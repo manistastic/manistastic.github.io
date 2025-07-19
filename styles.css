@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar (Centered Vertically & Positioned on Left) */
+.sidebar {
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+   /* font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed; /* Keeps it fixed on the left */
+    height: 100vh; /* Full screen height */
+    justify-content: center; /* Centers items vertically */
+    align-items: flex-start; /* Aligns to the left */
+}
+
+/* Sidebar Links (Clickable Sections) */
+.sidebar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: blue;
+}
+
+/* Content Section (Takes Full Width) */
+.content {
+    margin-left: 250px; /* Ensures content starts after sidebar */
+    width: calc(100% - 250px); /* Takes full width minus sidebar */
+    padding: 40px;
+   
+}
+
+/* Sections Styling */
+section {
+    min-height: 100vh; /* Each section takes full screen height */
+    padding: 50px;
+   /* background-color: #E0F7FA;  */
+}
+
+/* Blog Section */
+#blogs {
+    text-align: center;
+}
+
+/* Add Button */
+#addBlogBtn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#addBlogBtn:hover {
+    background-color: #218838;
+}
+
+/* Blog Input */
+#blogForm {
+    margin-top: 20px;
+}
+
+#blogText {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Publish Button */
+#publishBtn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#publishBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Published Blogs */
+.blogPost {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px;
+   
+}
+
+/* Contact Icons (Bottom-Left) */
+.contact-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Icon Styles */
+.contact-icons a {
+    font-size: 24px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: blue;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar (Clickable Sections) -->
+        <nav class="sidebar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#experience">Experiences</a>
+            <a href="#skills">Skills</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+
+        <!-- Main Content Sections -->
+        <div class="content">
+            <section id="home">
+                <h2>Manish Kumar</h2>
+                <p>Workday Data Conversion Consultant</p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Short introduction about yourself.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Experiences</h2>
+                <p>Details about your work experience.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>List of skills you have.</p>
+            </section>
+
+            <section id="blogs">
+                <h2>Blogs</h2>
+                
+                <!-- Add Button -->
+                <button id="addBlogBtn">+ Add</button>
+                
+                <!-- Blog Input Area (Initially Hidden) -->
+                <div id="blogForm" style="display: none;">
+                    <textarea id="blogText" placeholder="Write your blog here..."></textarea>
+                    <button id="publishBtn">Publish</button>
+                </div>
+                
+                <!-- Blog List -->
+                <div id="blogList"></div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+            
+                <!-- Contact Icons -->
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:your-email@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- Font Awesome Icons -->
+            <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link JavaScript -->
+</body>
+</html>
